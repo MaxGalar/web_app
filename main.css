@@ -19,7 +19,7 @@ h1 {
   /* настраиваем внешний вид шрифта */
   font-family: "Special Gothic Expanded One", sans-serif;
   font-style: normal;
-  font-size: 60px;
+  font-size: 3rem;
   font-weight: 400;
   color: #fff;
   
@@ -30,7 +30,7 @@ h1 {
 p {
   font-family: "Special Gothic Expanded One", sans-serif;
   font-style: normal;
-  font-size: 20px;
+  font-size: 1.2rem;
   font-weight: 400;
   color: #fff;
 }
