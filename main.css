@@ -1,20 +1,11 @@
 /*Задаём общие параметры для всей страницы: шрифт и отступы*/
 body {
-  height: 100%; /* Задаем высоту 100% для html и body */
-  margin: 0; /* Убираем стандартные отступы */
   text-align: center;
   line-height: 16px;
-  margin: 10;
   font-family: Verdana, Arial, sans-serif;
   font-size: 16px;
   background-color: #000;
-}
-
-.container {
-  height: 100%; /* Задаем высоту 100% для контейнера */
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  margin: 10;
 }
 
 img { 
