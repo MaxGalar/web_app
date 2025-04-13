@@ -1,7 +1,7 @@
 /*Задаём общие параметры для всей страницы: шрифт и отступы*/
 body {
   text-align: center;
-  line-height: 20px;
+  line-height: 16px;
   margin: 10;
   font-family: Verdana, Arial, sans-serif;
   font-size: 16px;
