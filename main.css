@@ -2,7 +2,10 @@
 body {
   text-align: center;
   line-height: 16px;
-  margin: 10;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 10px;
+  margin-right: 10px;
   font-family: Verdana, Arial, sans-serif;
   font-size: 16px;
   background-color: #000;
