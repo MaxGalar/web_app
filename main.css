@@ -4,4 +4,6 @@ body {
   margin: 10;
   font-family: Verdana, Arial, sans-serif;
   font-size: 30px;
+  font-color: #fff;
+  background-color: #000;
 }
