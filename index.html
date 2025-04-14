@@ -12,42 +12,51 @@
 </head>
 
 <body>
-<div class="head-text">
+
+
+<!-- Заголовок -->
+<div id="head-text">
+
 <h1>Lost</h1>
 <p>May be you will find it</p>
+
 </div>
+
+<!-- Галерея с картинками -->
+<div id="gallery">
 
 <img src="images/lost1.png" alt="lost">
 <img src="images/lost2.png" alt="lost">
 <img src="images/lost3.png" alt="lost">
 
-<div> <!-- Добавим обертку для вертикального расположения -->
- 
- <div id="waiting-message">
-             <!-- Сообщение об ожидании будет здесь -->
-         </div>
- 
-         <div id="countdown">
-            <div class="time-unit">
-                <span id="days">0</span>
-                <span>Days</span>
-            </div>
-            <div class="time-unit">
-                <span id="hours">0</span>
-                <span>Hours</span>
-            </div>
-            <div class="time-unit">
-                <span id="minutes">0</span>
-                <span>Minuts</span>
-            </div>
-            
-        </div>
+</div>
 
-        <div id="message">
-           Time is done!
-        </div>
+<!-- Добавим обертку для вертикального расположения -->
+<div id="waiting-message"><!-- Сообщение об ожидании будет здесь --></div>
+ 
+ <div id="countdown">
+
+    <div class="time-unit">
+      <span id="days">0</span></br>
+      <span>Days</span>
     </div>
-<p>found</p>
+
+    <div class="time-unit">
+       <span id="hours">0</span></br>
+       <span>Hours</span>
+    </div>
+
+     <div class="time-unit">
+        <span id="minutes">0</span></br>
+        <span>Minuts</span>
+     </div>
+            
+</div>
+
+ <div id="message">
+ Time is done!
+ </div>
+
 <script src="script.js"></script>
     
 </body>
