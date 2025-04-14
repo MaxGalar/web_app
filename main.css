@@ -30,3 +30,46 @@ p {
   font-weight: 400;
   color: #fff;
 }
+
+ #countdown {
+  display: none; /* Изначально скрыт */
+  gap: 20px;
+  background-color: #fff;
+  padding: 30px 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  text-align: center;
+  margin-top: 20px; /* Добавим отступ, если есть сообщение */
+}
+  
+.time-unit {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.time-unit span:first-child {
+  font-size: 2.5em;
+  font-weight: bold;
+  color: #333;
+  min-width: 60px;
+}
+        
+.time-unit span:last-child {
+  font-size: 0.9em;
+  color: #777;
+  text-transform: uppercase;
+}
+
+#message, #waiting-message {
+  font-size: 1.5em;
+  font-weight: bold;
+  background-color: #fff;
+  padding: 20px 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  display: none; /* Изначально скрыты */
+}
+
+#message { color: green; }
+#waiting-message { color: #555; }
