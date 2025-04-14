@@ -2,10 +2,11 @@
 body {
   text-align: center;
   line-height: 16px;
-  font-family: Verdana, Arial, sans-serif;
   font-size: 16px;
+  font-family: "Special Gothic Expanded One", sans-serif;
+  font-style: normal;
   background-color: #000;
-  margin: 15;
+  margin: 15px;
 }
 
 img { 
