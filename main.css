@@ -34,10 +34,9 @@ p {
  #countdown {
   display: none; /* Изначально скрыт */
   gap: 20px;
-  background-color: #fff;
+  background-color: #171717;
   padding: 30px 40px;
-  border-radius: 10px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  border-radius: 15px;
   text-align: center;
   margin-top: 20px; /* Добавим отступ, если есть сообщение */
 }
