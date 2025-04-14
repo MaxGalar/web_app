@@ -32,7 +32,7 @@ p {
 }
 
  #countdown {
-  display: none; /* Изначально скрыт */
+  display: block;
   gap: 20px;
   background-color: #171717;
   padding: 30px 40px;
