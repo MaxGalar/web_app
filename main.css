@@ -1,7 +1,6 @@
 /*Задаём общие параметры для всей страницы: шрифт и отступы*/
 body {
   text-align: center;
-  line-height: 16px;
   font-size: 16px;
   font-family: "Special Gothic Expanded One", sans-serif;
   font-style: normal;
@@ -16,8 +15,6 @@ img {
 }
 
 h1 {
-  font-family: "Special Gothic Expanded One", sans-serif;
-  font-style: normal;
   font-size: 5rem;
   font-weight: 400;
   color: #fff;
@@ -25,8 +22,6 @@ h1 {
 }
 
 p {
-  font-family: "Special Gothic Expanded One", sans-serif;
-  font-style: normal;
   font-size: 1.2rem;
   font-weight: 400;
   color: #fff;
