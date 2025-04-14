@@ -1,11 +1,14 @@
 /*Задаём общие параметры для всей страницы: шрифт и отступы*/
 body {
+  display: grid;
+  place-items: center; /* Центрирует и по горизонтали, и по вертикали */
+  min-height: 100vh;   /* Опять же, важно для вертикального центрирования */
+  margin: 0;           /* Убираем отступы по умолчанию у body */
   text-align: center;
   font-size: 16px;
   font-family: "Special Gothic Expanded One", sans-serif;
   font-style: normal;
   background-color: #000;
-  margin: 15px;
 }
 
 img { 
@@ -63,7 +66,6 @@ p {
   font-size: 1.5em;
   font-weight: bold;
   background-color: #fff;
-  padding: 20px 30px;
   border-radius: 8px;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
   display: none; /* Изначально скрыты */
