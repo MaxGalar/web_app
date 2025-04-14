@@ -1,8 +1,5 @@
 /*Задаём общие параметры для всей страницы: шрифт и отступы*/
 body {
-  display: grid;
-  place-items: center; /* Центрирует и по горизонтали, и по вертикали */
-  min-height: 100vh;   /* Опять же, важно для вертикального центрирования */
   text-align: center;
   font-size: 16px;
   font-family: "Special Gothic Expanded One", sans-serif;
