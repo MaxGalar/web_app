@@ -35,7 +35,6 @@ p {
   display: block;
   gap: 20px;
   background-color: #171717;
-  padding: 30px 40px;
   border-radius: 15px;
   text-align: center;
   margin-top: 20px; /* Добавим отступ, если есть сообщение */
