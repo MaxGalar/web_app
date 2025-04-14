@@ -3,7 +3,6 @@ body {
   display: grid;
   place-items: center; /* Центрирует и по горизонтали, и по вертикали */
   min-height: 100vh;   /* Опять же, важно для вертикального центрирования */
-  margin: 15px;
   text-align: center;
   font-size: 16px;
   font-family: "Special Gothic Expanded One", sans-serif;
@@ -28,8 +27,15 @@ p {
   color: #fff;
 }
 
-img { 
-  max-width: 100%; 
-  max-height: 100%; 
-  display: block; 
+#gallery {
+    max-width: 80%; /* Максимальная ширина контейнера */
+    margin: 20px auto; /* Отступы сверху/снизу и авто-отступы по бокам для горизонтального центрирования (дополнительно к flex на body) */
+}
+
+/* Стили для изображения внутри галереи */
+#gallery img {
+    display: block; /* Делаем изображение блочным элементом для работы margin: auto */
+    max-width: 100%; /* Изображение не будет шире своего контейнера (#gallery) */
+    height: auto; /* Высота подстраивается автоматически для сохранения пропорций */
+    margin: 0 auto; /* Центрируем изображение горизонтально внутри #gallery */
 }
