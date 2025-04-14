@@ -1,7 +1,6 @@
 <script>
-  // Убедитесь, что эти файлы ДЕЙСТВИТЕЛЬНО существуют по этим путям
   const images = [
-    'images/lost1.png', // Проверьте расширение! .jpg или .png?
+    'images/lost1.png',
     'images/lost3.png'
   ];
 
