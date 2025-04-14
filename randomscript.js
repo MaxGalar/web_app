@@ -1,4 +1,3 @@
-<script>
   const images = [
     'images/lost1.png',
     'images/lost3.png'
@@ -28,4 +27,3 @@
   } else {
     console.error("Элемент с ID 'randomImage' не найден!");
   }
-</script>
