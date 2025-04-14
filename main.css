@@ -34,3 +34,7 @@ p {
   font-weight: 400;
   color: #fff;
 }
+
+.container {
+  display: flex; /* Элемент становится блочным flex-контейнером */
+}
