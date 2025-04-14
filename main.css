@@ -5,7 +5,7 @@ body {
   font-family: Verdana, Arial, sans-serif;
   font-size: 16px;
   background-color: #000;
-  margin: 10;
+  margin: 15;
 }
 
 img { 
@@ -14,16 +14,12 @@ img {
   display: block; 
 }
 
-
 h1 {
-  /* настраиваем внешний вид шрифта */
   font-family: "Special Gothic Expanded One", sans-serif;
   font-style: normal;
-  font-size: 4rem;
+  font-size: 5rem;
   font-weight: 400;
   color: #fff;
-  
-  /* переводим все буквы в заглавные */
   text-transform: uppercase;
 }
 
@@ -33,8 +29,4 @@ p {
   font-size: 1.2rem;
   font-weight: 400;
   color: #fff;
-}
-
-.container {
-  display: flex; /* Элемент становится блочным flex-контейнером */
 }
