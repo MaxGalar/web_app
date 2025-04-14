@@ -3,7 +3,6 @@ body {
   display: grid;
   place-items: center; /* Центрирует и по горизонтали, и по вертикали */
   min-height: 100vh;   /* Опять же, важно для вертикального центрирования */
-  width: 100%;
   margin: 15px;
   text-align: center;
   font-size: 16px;
@@ -12,10 +11,8 @@ body {
   background-color: #000;
 }
 
-
-
 #head-text {
-line-height:8px;
+	line-height: 8px;
 }
 
 h1 {
