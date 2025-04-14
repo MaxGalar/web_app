@@ -36,11 +36,11 @@ p {
 
  #countdown {
   display: block;
-  gap: 20px;
+  width: 100%;
+  margin: 15;
   background-color: #171717;
   border-radius: 15px;
   text-align: center;
-  margin-top: 20px; /* Добавим отступ, если есть сообщение */
 }
   
 .time-unit {
