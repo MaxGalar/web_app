@@ -55,7 +55,7 @@ p {
 }
         
 .time-unit span:last-child {
-  font-size: 0.9em;
+  font-size: 0.6em;
   color: #777;
   text-transform: uppercase;
 }
