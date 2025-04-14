@@ -1,7 +1,9 @@
 // Массив с путями к вашим изображениям
 const images = [
   'images/lost1.png',
-  'images/lost3.png'
+  'images/lost3.png',
+  'images/lost5.png',
+  'images/lost6.png
   // Добавьте сюда еще пути, если нужно
 ];
 
