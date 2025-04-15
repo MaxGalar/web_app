@@ -2,19 +2,21 @@ body {
     background-color: #171717;
     color: #fff;
     font-family: "Special Gothic Expanded One", sans-serif;
-    font-weight: 400;
     margin: 0;
     padding: 0;
 }
 
 .container {
-    --block-gap: 12px; /* Управляйте расстоянием между блоками здесь */
-    max-width: 400px;
-    margin: 0 auto;
-    padding: 40px;
+    --block-gap: 16px;
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 40px;
+    padding-bottom: 20px;
     display: flex;
     flex-direction: column;
     gap: var(--block-gap);
+    box-sizing: border-box;
 }
 
 header {
@@ -62,6 +64,8 @@ header p {
 }
 
 .artifact img {
+    display: block;
+    margin: 0 auto;
     max-width: 100%;
     border-radius: 10px;
 }
