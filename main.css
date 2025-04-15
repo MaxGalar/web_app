@@ -72,7 +72,7 @@ body, html {
 .main-artifacts-button {
   position: fixed;
   left: 50%;
-  bottom: 32px; /* отступ от низа, можно изменить */
+  bottom: 40px; /* отступ от низа, можно изменить */
   transform: translateX(-50%);
   background: #fff;
   color: #111;
