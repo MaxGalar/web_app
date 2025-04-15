@@ -2,7 +2,7 @@ body, html {
   height: 100%;
   margin: 0;
   padding: 0;
-  background-color: #1A1A1A;
+  background-color: #0A0A0A;
   color: #FFF;
   font-family: "Special Gothic Expanded One", sans-serif;
 }
@@ -50,7 +50,7 @@ body, html {
 }
 
 .main-search-status {
-  background: #010101;
+  background: #151515;
   padding: 10px;
   border-radius: 20px;
   text-align: center;
@@ -113,7 +113,7 @@ body, html {
 }
 
 .list-artifact-card {
-  background: #010101;
+  background: #151515;
   border-radius: 20px;
   padding-top: 10px;
   padding-left: 30px;
