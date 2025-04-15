@@ -124,6 +124,7 @@ body, html {
 .list-artifact-card h2 {
   font-size: 1.2rem;
   font-weight: 400;
+  margin-bottom: 4px;
 }
 
 .list-artifact-card p {
@@ -133,6 +134,7 @@ body, html {
   font-style: normal;
   font-size: 1rem;
   color: #4A4A4A;
+  margin-top: 0px;
 }
 
 .list-artifact-card img {
