@@ -1,37 +1,39 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lost</title>
     
     <link rel="stylesheet" href="main.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Special+Gothic+Expanded+One&display=swap" rel="stylesheet">
-        
 </head>
-
 <body>
-
-
-<!-- Заголовок -->
-<div id="head-text">
-
-<h1>Lost</h1>
-<p>May be you will find it</p>
-
-</div>
-
-<!-- Галерея с картинками -->
-<div id="gallery">
-
-<img id="randomImage" src="" alt="Случайное изображение">
-<!-- <img src="images/lost1.png" alt="lost">
-<img src="images/lost3.png" alt="lost"> -->
-
-</div>
-
-<script src="randomscript.js"></script>
-<script src="https://telegram.org/js/telegram-web-app.js"></script>
-    
+    <div class="container">
+        <header>
+            <h1>LOST</h1>
+            <p>May be you will find it</p>
+        </header>
+        <div class="search-status">
+            <p>The system continues to search for artifacts...</p>
+        </div>
+        <div class="artifact">
+            <h2>Lost №342</h2>
+            <p>stone arrowhead</p>
+            <img src="images/lost1.png" alt="">
+        </div>
+        <div class="artifact">
+            <h2>Lost №250</h2>
+            <p>moon from stone</p>
+            <img src="images/lost2.png" alt="">
+        </div>
+        <div class="artifact">
+            <h2>Lost №640</h2>
+            <p>more than a million years</p>
+            <img src="images/lost3.png" alt="">
+        </div>
+    </div>
 </body>
 </html>

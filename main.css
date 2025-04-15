@@ -1,37 +1,67 @@
-/*Задаём общие параметры для всей страницы: шрифт и отступы*/
 body {
-  text-align: center;
-  font-size: 16px;
-  font-family: "Special Gothic Expanded One", sans-serif;
-  font-weight: 400;
-  background-color: #000;
+    background-color: #171717;
+    color: #fff;
+    font-family: "Special Gothic Expanded One", sans-serif;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
 }
 
-#head-text {
-	line-height: 8px;
+.container {
+    --block-gap: 12px; /* Управляйте расстоянием между блоками здесь */
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: var(--block-gap);
 }
 
-h1 {
-  font-size: 5rem;
-  font-weight: 400;
-  color: #fff;
-  text-transform: uppercase;
+header {
+    text-align: center;
+    margin-bottom: 40px;
 }
 
-p {
-  font-size: 1.2rem;
-  font-weight: 400;
-  color: #fff;
+header h1 {
+    font-size: 5rem;
+    margin: 0;
 }
 
-#gallery {
-    max-width: 100%; /* Максимальная ширина контейнера */
+header p {
+    font-size: 1.2rem;
+    margin: 0;
 }
 
-/* Стили для изображения внутри галереи */
-#gallery img {
-    display: block; /* Делаем изображение блочным элементом для работы margin: auto */
-    max-width: 100%; /* Изображение не будет шире своего контейнера (#gallery) */
-    height: auto; /* Высота подстраивается автоматически для сохранения пропорций */
-    margin: 0 auto; /* Центрируем изображение горизонтально внутри #gallery */
+.search-status {
+    background-color: #010101;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+    text-align: left;
+}
+
+.artifact {
+    background-color: #010101;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+    text-align: left;
+}
+
+.artifact h2 {
+    font-size: 1.2rem;
+    margin: 0 0 3px;
+}
+
+.artifact p {
+    font-size: 0.8rem;
+    margin: 0 0 3px;
+    color: #434343;
+}
+
+.artifact img {
+    max-width: 100%;
+    border-radius: 10px;
 }
