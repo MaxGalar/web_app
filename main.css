@@ -70,6 +70,10 @@ body, html {
 }
 
 .main-artifacts-button {
+  position: fixed;
+  left: 50%;
+  bottom: 32px; /* отступ от низа, можно изменить */
+  transform: translateX(-50%);
   background: #fff;
   color: #111;
   border: none;
@@ -78,11 +82,10 @@ body, html {
   font-size: 1.2rem;
   font-weight: 400;
   cursor: pointer;
-  align-self: center;
-  margin-top: 20px;
-  margin-bottom: 0;
-  display: inline-block;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.15);
   text-decoration: none;
+  z-index: 1000;
+  transition: background 0.2s;
 }
 
 .main-artifacts-button:hover {
