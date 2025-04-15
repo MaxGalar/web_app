@@ -5,7 +5,6 @@ body, html {
   background-color: #1A1A1A;
   color: #FFF;
   font-family: "Special Gothic Expanded One", sans-serif;
-  font-size: 16px;
 }
 
  p {
@@ -52,10 +51,18 @@ body, html {
 
 .main-search-status {
   background: #010101;
-  padding: 20px;
+  padding: 10px;
   border-radius: 20px;
   text-align: center;
-  margin-top: 20px;
+  margin-top: 40px;
+}
+
+.main-search-status p {
+  font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 1rem;
 }
 
 .main-artifacts-button {
@@ -90,7 +97,7 @@ body, html {
 
 .list-header {
   text-align: center;
-  margin-bottom: 32px;
+  margin-bottom: 40px;
 }
 
 .list-header h1 {
@@ -107,7 +114,7 @@ body, html {
 
 .list-artifact-card {
   background: #010101;
-  border-radius: 10px;
+  border-radius: 20px;
   padding-top: 10px;
   padding-left: 30px;
   padding-right: 30px;
@@ -120,9 +127,12 @@ body, html {
 }
 
 .list-artifact-card p {
-  font-size: 0.7rem;
-  font-weight: 400;
-  color: #aaa;
+  font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 1rem;
+  color: #4A4A4A;
 }
 
 .list-artifact-card img {
